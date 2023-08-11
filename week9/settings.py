@@ -124,6 +124,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# MESSAGE_TAG={
-#     messages.ERROR:'danger'
-# }
+MESSAGE_TAG={
+    messages.ERROR:'danger'
+}
+
+APPEND_SLASH = False

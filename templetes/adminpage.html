@@ -40,9 +40,8 @@
         <td>{{a.first_name}}</td>
         <td>{{a.last_name}}</td>
         <td>{{a.email}}</td>
-        <td><a href=""></a><button type="button" class="btn btn-outline-success">Edit</button></a></td>
-        <td><a href="{% url 'delete_row' a.id %}"><button type="button"
-              class="btn btn-outline-danger">Delete</button></a></td>
+        <td><a href="{% url 'edit_row' a.id %}"><button type="button" class="btn btn-outline-success">Edit</button></a></td>
+        <td><a href="{% url 'delete_row' a.id %}"><button type="button"class="btn btn-outline-danger">Delete</button></a></td>
 
 
       </tr>
